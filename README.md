@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile screenshot](/testimonials-grid/screenshots/mobile-screenshot.png)
-![Desktop screenshot](/testimonials-grid/screenshots/desktop-screenshot.png)
+![Mobile screenshot](<screenshots/mobile-screenshot.png>)
+![Desktop screenshot](screenshots/desktop-screenshot.png)
 
 
 ### Links
