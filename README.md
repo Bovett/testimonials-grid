@@ -24,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile screenshot](/Testimonials-Grid/screenshots/mobile-screenshot.png)
-![Desktop screenshot](/Testimonials-Grid/screenshots/desktop-screenshot.png)
+![Mobile screenshot](/testimonials-grid/screenshots/mobile-screenshot.png)
+![Desktop screenshot](/testimonials-grid/screenshots/desktop-screenshot.png)
 
 
 ### Links
 
 - Solution URL: [https://github.com/Bovett/testimonials-grid](https://github.com/Bovett/testimonials-grid)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://bovett.github.io/testimonials-grid/](https://bovett.github.io/testimonials-grid/)
 
 ## My process
 
