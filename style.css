@@ -1,0 +1,147 @@
+html {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: #fff;
+        line-height: normal;
+}
+body {
+        box-sizing: border-box;
+        height: auto;
+        width: 1130px;
+        background-color: hsl(210, 46%, 95%);
+        padding: 20px;
+        line-height: 110%;
+        margin: auto;
+        padding-bottom: 0;
+}
+
+*, *:before, *:after {
+        box-sizing: inherit;
+}
+main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+}
+.card {
+        border-radius: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+}
+p {
+        color: hsl(0, 0%, 81%);
+}
+p.large {
+        color: white;
+        font-size: 1.25em;
+        font-weight: 600;
+        line-height: 130%;
+        margin: 15px 0 15px 0;
+}
+.jeanette p.large, .kira p.large {
+        color: hsl(219, 29%, 14%);
+}
+.daniel {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: hsl(263, 55%, 52%);
+        background-image: url('images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: right 75px top;
+
+}
+.jonathan {
+        background-color: hsl(217, 19%, 35%);
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+}
+.jeanette {
+        background-color: #fff;
+        color: hsl(219, 29%, 14%);
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+}
+.patrick {
+        background-color: hsl(219, 29%, 14%);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+}
+.kira {
+        background-color: #fff;
+        color: hsl(219, 29%, 14%);
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+}
+.quote {
+        font-size: 0.817em;
+        margin-bottom: 0;
+        margin-top: 0;
+        opacity: 70%;
+}
+.jeanette p.quote, .kira p.quote {
+        color: hsl(219, 29%, 14%);
+}
+img {
+        float: left;
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        margin-right: 20px;
+        border: 1px solid hsl(0, 0%, 81%);
+}
+header {
+        display: flex;
+        align-items: center;
+        font-size: 0.7em;
+        line-height: normal;
+}
+.name {
+        font-size: 1em;
+        margin-bottom: 0;
+        margin-top: 0;
+}
+.ver-grad {
+        margin-top: 3px;
+        margin-bottom: 0;
+        color: #fff;
+        opacity: 50%;
+}
+.white-bg{
+        color: hsl(219, 29%, 14%);
+        opacity: 50%;
+}
+
+.attribution {
+        font-size: 11px; text-align: center;
+        color: black;
+        margin-top: 15px;
+        margin-bottom: 10px;
+}
+.attribution a {
+        color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+        body {
+                width: 375px;
+        }
+        main {
+                display: flex;
+                flex-direction: column;
+        }
+        .daniel {
+                background-position: top right 30px;
+        }
+}
